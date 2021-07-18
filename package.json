@@ -1,7 +1,7 @@
 {
   "name": "nexui-kit",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "Low-level UI component library for react",
   "author": "NavaneethVijay",
   "license": "MIT",
   "repository": "NavaneethVijay/nexui-kit",
@@ -20,8 +20,8 @@
     "test:lint": "eslint .",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
-    "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+    "predeploy": "cd website && yarn install && yarn run build",
+    "deploy": "gh-pages -d website/build"
   },
   "peerDependencies": {
     "react": "^16.0.0"

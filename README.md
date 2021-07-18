@@ -1,9 +1,5 @@
 # nexui-kit
-
-> Made with create-react-library
-
-[![NPM](https://img.shields.io/npm/v/nexui-kit.svg)](https://www.npmjs.com/package/nexui-kit) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
+Low-level UI component library for react projects
 ## Install
 
 ```bash
@@ -16,7 +12,6 @@ npm install --save nexui-kit
 import React, { Component } from 'react'
 
 import MyComponent from 'nexui-kit'
-import 'nexui-kit/dist/index.css'
 
 class Example extends Component {
   render() {
